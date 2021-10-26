@@ -42,7 +42,12 @@ source ./vars
 ./build-dh
 ```
 
-## Server端配置
+## Server VPN
+安装VPN Server，
+```
+yum install -y openvpn
+```
+
 编辑/etc/openvpn/server/server.conf
 
 ```
